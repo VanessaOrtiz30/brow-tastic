@@ -80,3 +80,9 @@ th, td {
     text-align: left;  
     color: white;  
 }
+
+.videos{
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
