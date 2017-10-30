@@ -1,0 +1,82 @@
+*{ /*applies styling to ALL elements of the webpage, NOTE: applies Lato font to whole site; fonts.google.com*/
+	font-family: 'Lato', sans-serif;
+}
+
+body {
+/*margin: 0;	
+background: url('tryBG.jpg');
+background-repeat: no-repeat;
+background-size: cover; webgradients.com*/
+background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+margin-left: 250px;
+margin-right: 250px;
+}
+
+h1{
+	color: white;
+	font-size: 60px;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+}
+
+h2{
+	/*add styling*/
+}
+
+.nav{
+	width: 100%;
+	background-color: #000000;
+	height: 100px
+	margin-top: 150px;
+	text-align: center;
+	margin: 0 auto;
+	text-align: center;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+li{
+	float: left;
+	margin-top: 30px;
+}
+a{
+	width:150px;
+	color: white;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 20px;
+	text-align: center;
+	margin-left: 30px;
+	padding: 10px;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+a:hover{
+	color: black;
+}
+
+p{
+	color: white;
+}
+
+.image-gallery img{
+	margin: 0 auto;
+	text-align: center;
+	height: 200px;
+	width: 200px;
+	display: inline-block;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;  
+    color: white;  
+}
